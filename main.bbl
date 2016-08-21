@@ -1,10 +1,26 @@
 \begin{thebibliography}{1}
 
-\bibitem{liu2013s}
-J.~Liu, F.~Zhang, X.~Song, Y.-I. Song, C.-Y. Lin, and H.-W. Hon.
-\newblock What's in a name?: an unsupervised approach to link users across
-  communities.
-\newblock In {\em Proceedings of the sixth ACM international conference on Web
-  search and data mining}, pages 495--504. ACM, 2013.
+\bibitem{hw-osmugsm-08}
+M.~Haklay and P.~Weber.
+\newblock Openstreetmap: User-generated street maps.
+\newblock {\em IEEE Pervasive Computing}, October-December:12--18, 2008.
+
+\bibitem{manyika2011big}
+J.~Manyika, M.~Chui, B.~Brown, J.~Bughin, R.~Dobbs, C.~Roxburgh, and A.~H.
+  Byers.
+\newblock Big data: The next frontier for innovation, competition, and
+  productivity.
+\newblock 2011.
+
+\bibitem{OSM}
+Open street map.
+\newblock http://www.openstreetmap.org.
+
+\bibitem{yang2015nationtelescope}
+D.~Yang, D.~Zhang, L.~Chen, and B.~Qu.
+\newblock Nationtelescope: Monitoring and visualizing large-scale collective
+  behavior in lbsns.
+\newblock {\em Journal of Network and Computer Applications}, 55:170--180,
+  2015.
 
 \end{thebibliography}

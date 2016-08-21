@@ -1,7 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.19)  20 AUG 2016 23:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.19)  21 AUG 2016 10:20
 entering extended mode
-**C:/publications/papers/SSTDM16-Recommendation/main.tex
-(C:/publications/papers/SSTDM16-Recommendation/main.tex
+**C:/publications/papers/SSTDM16-Recommendation/Spatio-Temporal-Recommendation-
+Sytems.git/trunk/main.tex
+
+(C:/publications/papers/SSTDM16-Recommendation/Spatio-Temporal-Recommendation-S
+ytems.git/trunk/main.tex
 LaTeX2e <2015/10/01> patch level 2
 Babel <3.9n> and hyphenation patterns for 69 languages loaded.
 (IEEEtran.cls
@@ -380,18 +383,23 @@ LaTeX Font Info:    ... okay on input line 90.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfigure package is loaded.
 Package caption Info: End \AtBeginDocument code.
+ (introduction.tex
+LaTeX Font Info:    Try loading font information for U+msa on input line 12.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 12.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+))
+(relatedwork.tex [1{C:/Users/Andreas/AppData/Local/MiKTeX/2.9/pdftex/config/pdf
+tex.map}
 
 
-LaTeX Warning: No \author given.
-
-
-LaTeX Warning: No \author given.
-
-
-LaTeX Warning: No \author given.
-
-(introduction.tex) (relatedwork.tex) (definitions.tex) (featureExtraction.tex)
-(prediction.tex) (experiments.tex) (conclusion.tex) (main.bbl)
+]) (definitions.tex) (featureExtraction.tex) (prediction.tex)
+(experiments.tex) (conclusion.tex) (main.bbl)
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -403,28 +411,26 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[1{C:/Users/Andreas/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+[2
 
-
-
-]
-(main.aux) ) 
+] (main.aux) ) 
 Here is how much of TeX's memory you used:
- 4742 strings out of 493634
- 73267 string characters out of 3141308
- 138542 words of memory out of 3000000
- 8071 multiletter control sequences out of 15000+200000
- 31929 words of font info for 61 fonts, out of 3000000 for 9000
+ 4774 strings out of 493634
+ 73945 string characters out of 3141308
+ 141551 words of memory out of 3000000
+ 8088 multiletter control sequences out of 15000+200000
+ 35813 words of font info for 71 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 36i,8n,38p,1306b,242s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program
- Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files (x8
-6)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2
-.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (1 page, 51843 bytes).
+ 36i,8n,38p,1353b,246s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.en
+c}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><
+C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program 
+Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files (x86
+)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.
+9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (2 pages, 68256 bytes).
 PDF statistics:
- 23 PDF objects out of 1000 (max. 8388607)
+ 30 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
