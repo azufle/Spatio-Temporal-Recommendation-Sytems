@@ -5,6 +5,13 @@ M.~Haklay and P.~Weber.
 \newblock Openstreetmap: User-generated street maps.
 \newblock {\em IEEE Pervasive Computing}, October-December:12--18, 2008.
 
+\bibitem{li2008mining}
+Q.~Li, Y.~Zheng, X.~Xie, Y.~Chen, W.~Liu, and W.-Y. Ma.
+\newblock Mining user similarity based on location history.
+\newblock In {\em Proceedings of the 16th ACM SIGSPATIAL international
+  conference on Advances in geographic information systems}, page~34. ACM,
+  2008.
+
 \bibitem{manyika2011big}
 J.~Manyika, M.~Chui, B.~Brown, J.~Bughin, R.~Dobbs, C.~Roxburgh, and A.~H.
   Byers.
@@ -16,11 +23,30 @@ J.~Manyika, M.~Chui, B.~Brown, J.~Bughin, R.~Dobbs, C.~Roxburgh, and A.~H.
 Open street map.
 \newblock http://www.openstreetmap.org.
 
+\bibitem{xiao2010finding}
+X.~Xiao, Y.~Zheng, Q.~Luo, and X.~Xie.
+\newblock Finding similar users using category-based location history.
+\newblock In {\em Proceedings of the 18th SIGSPATIAL International Conference
+  on Advances in Geographic Information Systems}, pages 442--445. ACM, 2010.
+
 \bibitem{yang2015nationtelescope}
 D.~Yang, D.~Zhang, L.~Chen, and B.~Qu.
 \newblock Nationtelescope: Monitoring and visualizing large-scale collective
   behavior in lbsns.
 \newblock {\em Journal of Network and Computer Applications}, 55:170--180,
   2015.
+
+\bibitem{zheng2010geolife}
+Y.~Zheng, X.~Xie, and W.-Y. Ma.
+\newblock Geolife: A collaborative social networking service among user,
+  location and trajectory.
+\newblock {\em IEEE Data Eng. Bull.}, 33(2):32--39, 2010.
+
+\bibitem{zheng2009mining}
+Y.~Zheng, L.~Zhang, X.~Xie, and W.-Y. Ma.
+\newblock Mining interesting locations and travel sequences from gps
+  trajectories.
+\newblock In {\em Proceedings of the 18th international conference on World
+  wide web}, pages 791--800. ACM, 2009.
 
 \end{thebibliography}
