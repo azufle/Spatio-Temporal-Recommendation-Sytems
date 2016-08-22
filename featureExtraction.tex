@@ -1,3 +1,42 @@
 %!TEX root = ./main.tex
 \section{Spatio-Temporal User-Site Feature Extraction}
 \label{sec:method}
+
+There are many spatio-temporal features that could potentially be related to a user's feeling of a location. We discuss in the section a set of common features we select for the rating prediction problem, and the methods we use to extra such features. It is easy to understand why these features are select, given that they are quite intuitive.
+
+\subsection{Extracting the frequency of visits of a user}
+
+Our assumption is, if a user repeatedly visit a place, e.g., always dine in the same restaurant, it strongly suggests that the user would rate this place highly. On the other hand, if a user visits a place only once, then never comes back, it may be because the user dislike the place.
+
+In order 
+
+Average duration between visits
+Minimal duration between visits
+Maximal duration between visits
+Multiple visits a day
+at least one visit a day
+at least one visit a week
+at least one visit a month
+Only one visit a month
+Never visited
+
+\subsection{Extracting the length of stays of a user}
+
+
+\subsection{Extracting the travel distance of a user from its home base}
+
+Food, Mall, etc. Not hotel
+Show a figure/do location clustering
+
+
+\subsection{Extracting the total number of different visitors}
+
+
+\subsection{Extracting the type of location}
+
+
+\subsection{Discussion}
+1. Assumptions
+2. Lack of data: Pattern emerges only if data accumulate
+3. Explore social connection
+4. Explore comparability of nearby PoIs
