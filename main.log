@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2013.2.25)  22 AUG 2016 12:57
 entering extended mode
 **main.tex
@@ -18,6 +19,18 @@ senglishmax, welsh, loaded.
 
 (C:\Users\ofanim\Dropbox\Research\Spatio-Temporal-Recommendation-Sytems\IEEEtra
 n.cls
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.19)  22 AUG 2016 14:21
+entering extended mode
+**C:/publications/papers/SSTDM16-Recommendation/Spatio-Temporal-Recommendation-
+Sytems.git/trunk/main.tex
+
+(C:/publications/papers/SSTDM16-Recommendation/Spatio-Temporal-Recommendation-S
+ytems.git/trunk/main.tex
+LaTeX2e <2015/10/01> patch level 2
+Babel <3.9n> and hyphenation patterns for 69 languages loaded.
+(IEEEtran.cls
+>>>>>>> origin/master
 Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
 -- See the "IEEEtran_HOWTO" manual for usage information.
 -- http://www.michaelshell.org/tex/ieeetran/
@@ -182,13 +195,18 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
 )
+<<<<<<< HEAD
 ("C:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\url.sty"
+=======
+(C:\Users\Andreas\AppData\Roaming\MiKTeX\2.9\tex\latex\url\url.sty
+>>>>>>> origin/master
 \Urlmuskip=\muskip11
 Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
 \bigstrutjot=\dimen135
 )
+<<<<<<< HEAD
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
@@ -198,6 +216,17 @@ Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+=======
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks20
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+>>>>>>> origin/master
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
@@ -205,7 +234,7 @@ Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
-Package graphics Info: Driver file: pdftex.def on input line 91.
+Package graphics Info: Driver file: pdftex.def on input line 94.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
@@ -221,11 +250,18 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen136
 \Gin@req@width=\dimen137
 )
+<<<<<<< HEAD
 ("C:\Program Files\MiKTeX 2.9\tex\latex\algorithms\algorithm.sty"
 Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
 nment
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
+=======
+(C:\Users\Andreas\AppData\Roaming\MiKTeX\2.9\tex\latex\algorithms\algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\float\float.sty"
+>>>>>>> origin/master
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count107
 \float@exts=\toks21
@@ -233,13 +269,23 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks22
 \@floatcapt=\box31
 )
+<<<<<<< HEAD
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+=======
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+>>>>>>> origin/master
 )
 \@float@every@algorithm=\toks23
 \c@algorithm=\count108
 )
+<<<<<<< HEAD
 ("C:\Program Files\MiKTeX 2.9\tex\latex\algorithms\algorithmic.sty"
+=======
+(C:\Users\Andreas\AppData\Roaming\MiKTeX\2.9\tex\latex\algorithms\algorithmic.s
+ty
+>>>>>>> origin/master
 Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
 \c@ALC@unique=\count109
 \c@ALC@line=\count110
@@ -247,20 +293,33 @@ Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
 \c@ALC@depth=\count112
 \ALC@tlm=\skip47
 \algorithmicindent=\skip48
+<<<<<<< HEAD
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
 Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+=======
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\color.sty"
+Package: color 2014/10/28 v1.1a Standard LaTeX Color (DPC)
+>>>>>>> origin/master
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
-Package color Info: Driver file: pdftex.def on input line 130.
+Package color Info: Driver file: pdftex.def on input line 142.
 )
+<<<<<<< HEAD
 ("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption.sty"
 Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption3.sty"
 Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+=======
+(C:\Users\Andreas\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption.sty
+Package: caption 2016/02/02 v3.3-136 Customizing captions (AR)
+
+(C:\Users\Andreas\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption3.sty
+Package: caption3 2016/02/02 v1.7-136 caption3 kernel (AR)
+>>>>>>> origin/master
 Package caption3 Info: TeX engine: e-TeX on input line 57.
 \captionmargin=\dimen138
 \captionmargin@=\dimen139
@@ -290,16 +349,26 @@ ference \hbox to\hsize {\normalfont \footnotesize \hfil \box \@tempboxa \hfil }
 \fi .
 \c@ContinuedFloat=\count113
 Package caption Info: float package is loaded.
+<<<<<<< HEAD
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\paralist\paralist.sty"
 Package: paralist 2016/08/07 v2.6 Extended list environments
+=======
+) (C:\Users\Andreas\AppData\Roaming\MiKTeX\2.9\tex\latex\paralist\paralist.sty
+Package: paralist 2015/12/30 v2.5 Extended list environments
+>>>>>>> origin/master
 \pltopsep=\skip49
 \plpartopsep=\skip50
 \plitemsep=\skip51
 \plparsep=\skip52
 \pl@lab=\toks24
+<<<<<<< HEAD
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\caption\newfloat.sty"
 Package: newfloat 2013/05/11 v1.1-91 Defining new floating environments (AR)
+=======
+) (C:\Users\Andreas\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\newfloat.sty
+Package: newfloat 2015/09/17 v1.1-109 Defining new floating environments (AR)
+>>>>>>> origin/master
 )
 Package newfloat Info: New float `copyrightbox' with options `' on input line 6
 5.
@@ -307,7 +376,11 @@ Package newfloat Info: New float `copyrightbox' with options `' on input line 6
 Package newfloat Info: float type `copyrightbox'=8 on input line 65.
 \c@definition=\count115
 
+<<<<<<< HEAD
 ("C:\Program Files\MiKTeX 2.9\tex\latex\booktabs\booktabs.sty"
+=======
+(C:\Users\Andreas\AppData\Roaming\MiKTeX\2.9\tex\latex\booktabs\booktabs.sty
+>>>>>>> origin/master
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \heavyrulewidth=\dimen145
 \lightrulewidth=\dimen146
@@ -337,7 +410,11 @@ Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
 ))
+<<<<<<< HEAD
 ("C:\Program Files\MiKTeX 2.9\tex\latex\subfigure\subfigure.sty"
+=======
+(C:\Users\Andreas\AppData\Roaming\MiKTeX\2.9\tex\latex\subfigure\subfigure.sty
+>>>>>>> origin/master
 Package: subfigure 2002/07/30 v2.1.4 subfigure package
 \subfigtopskip=\skip53
 \subfigcapskip=\skip54
@@ -353,14 +430,23 @@ Package: subfigure 2002/07/30 v2.1.4 subfigure package
 ****************************************
 * Local config file subfigure.cfg used *
 ****************************************
+<<<<<<< HEAD
 ("C:\Program Files\MiKTeX 2.9\tex\latex\subfigure\subfigure.cfg")
+=======
+(C:\Users\Andreas\AppData\Roaming\MiKTeX\2.9\tex\latex\subfigure\subfigure.cfg)
+>>>>>>> origin/master
 \subfig@top=\skip57
 \subfig@bottom=\skip58
 )
 \c@example=\count124
+ (main.aux)
+\openout1 = `main.aux'.
 
+<<<<<<< HEAD
 (C:\Users\ofanim\Dropbox\Research\Spatio-Temporal-Recommendation-Sytems\main.au
 x)
+=======
+>>>>>>> origin/master
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 94.
 LaTeX Font Info:    ... okay on input line 94.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 94.
@@ -375,7 +461,11 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 94.
 LaTeX Font Info:    ... okay on input line 94.
 
 -- Lines per column: 56 (exact).
+<<<<<<< HEAD
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+=======
+(C:\Users\Andreas\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+>>>>>>> origin/master
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count125
 \scratchdimen=\dimen160
@@ -392,18 +482,27 @@ LaTeX Font Info:    ... okay on input line 94.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfigure package is loaded.
 Package caption Info: End \AtBeginDocument code.
+<<<<<<< HEAD
 
 (C:\Users\ofanim\Dropbox\Research\Spatio-Temporal-Recommendation-Sytems\introdu
 ction.tex
 LaTeX Font Info:    Try loading font information for U+msa on input line 12.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+=======
+ (introduction.tex
+LaTeX Font Info:    Try loading font information for U+msa on input line 12.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+>>>>>>> origin/master
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 12.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 ))
+<<<<<<< HEAD
 (C:\Users\ofanim\Dropbox\Research\Spatio-Temporal-Recommendation-Sytems\related
 work.tex [1{C:/Users/ofanim/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
@@ -419,11 +518,24 @@ LaTeX Warning: Reference `sec:stay' on page 2 undefined on input line 27.
 x)
 (C:\Users\ofanim\Dropbox\Research\Spatio-Temporal-Recommendation-Sytems\feature
 Extraction.tex [2] <figures/homebase.pdf, id=17, 373.395pt x 199.49532pt>
+=======
+(relatedwork.tex [1{C:/Users/Andreas/AppData/Local/MiKTeX/2.9/pdftex/config/pdf
+tex.map}
+
+
+]) (definitions.tex
+
+LaTeX Warning: Reference `sec:stay' on page 2 undefined on input line 27.
+
+) (stay.tex) (featureExtraction.tex [2]
+<figures/homebase.pdf, id=17, 373.395pt x 199.49532pt>
+>>>>>>> origin/master
 File: figures/homebase.pdf Graphic file (type pdf)
 
 <use figures/homebase.pdf>
 Package pdftex.def Info: figures/homebase.pdf used on input line 47.
 (pdftex.def)             Requested size: 232.19843pt x 124.05717pt.
+<<<<<<< HEAD
 )
 (C:\Users\ofanim\Dropbox\Research\Spatio-Temporal-Recommendation-Sytems\predict
 ion.tex)
@@ -434,6 +546,9 @@ ion.tex)
 (C:\Users\ofanim\Dropbox\Research\Spatio-Temporal-Recommendation-Sytems\main.bb
 l [3 <C:/Users/ofanim/Dropbox/Research/Spatio-Temporal-Recommendation-Sytems/fi
 gures/homebase.pdf>])
+=======
+) (prediction.tex) (experiments.tex) (conclusion.tex) (main.bbl)
+>>>>>>> origin/master
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -445,16 +560,21 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
+<<<<<<< HEAD
 [4
 
 ]
 (C:\Users\ofanim\Dropbox\Research\Spatio-Temporal-Recommendation-Sytems\main.au
 x)
+=======
+[3 <./figures/homebase.pdf>] (main.aux)
+>>>>>>> origin/master
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  4796 strings out of 494045
  74836 string characters out of 3148384
  139512 words of memory out of 3000000
@@ -472,6 +592,26 @@ fb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program F
 iles/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/f
 onts/type1/urw/times/utmri8a.pfb>
 Output written on main.pdf (4 pages, 232797 bytes).
+=======
+ 4815 strings out of 493634
+ 74331 string characters out of 3141308
+ 144544 words of memory out of 3000000
+ 8116 multiletter control sequences out of 15000+200000
+ 42234 words of font info for 86 fonts, out of 3000000 for 9000
+ 1025 hyphenation exceptions out of 8191
+ 36i,8n,39p,1353b,343s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program 
+Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Fil
+es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files 
+(x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x
+86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)
+/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9
+/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
+e1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/time
+s/utmri8a.pfb>
+Output written on main.pdf (3 pages, 229488 bytes).
+>>>>>>> origin/master
 PDF statistics:
  93 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
