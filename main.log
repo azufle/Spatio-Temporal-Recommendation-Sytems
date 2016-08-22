@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.31)  21 AUG 2016 13:41
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.19)  21 AUG 2016 16:27
->>>>>>> origin/master
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.31)  22 AUG 2016 01:43
 entering extended mode
 **main.tex
 
@@ -365,18 +361,18 @@ Package: subfigure 2002/07/30 v2.1.4 subfigure package
 
 (C:\Users\Guolei\Dropbox\Research\Spatio-Temporal-Recommendation-Sytems\main.au
 x)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
 
 -- Lines per column: 56 (exact).
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
@@ -408,16 +404,27 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 12.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ))
-<<<<<<< HEAD
 (C:\Users\Guolei\Dropbox\Research\Spatio-Temporal-Recommendation-Sytems\related
 work.tex [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
 ])
 (C:\Users\Guolei\Dropbox\Research\Spatio-Temporal-Recommendation-Sytems\definit
-ions.tex)
+ions.tex
+
+LaTeX Warning: Reference `sec:stay' on page 2 undefined on input line 27.
+
+)
+(C:\Users\Guolei\Dropbox\Research\Spatio-Temporal-Recommendation-Sytems\stay.te
+x)
 (C:\Users\Guolei\Dropbox\Research\Spatio-Temporal-Recommendation-Sytems\feature
-Extraction.tex)
+Extraction.tex [2] <figures/homebase.pdf, id=17, 373.395pt x 199.49532pt>
+File: figures/homebase.pdf Graphic file (type pdf)
+
+<use figures/homebase.pdf>
+Package pdftex.def Info: figures/homebase.pdf used on input line 49.
+(pdftex.def)             Requested size: 232.19843pt x 124.05717pt.
+)
 (C:\Users\Guolei\Dropbox\Research\Spatio-Temporal-Recommendation-Sytems\predict
 ion.tex)
 (C:\Users\Guolei\Dropbox\Research\Spatio-Temporal-Recommendation-Sytems\experim
@@ -426,18 +433,6 @@ ents.tex)
 ion.tex)
 (C:\Users\Guolei\Dropbox\Research\Spatio-Temporal-Recommendation-Sytems\main.bb
 l)
-=======
-(relatedwork.tex [1{C:/Users/Andreas/AppData/Local/MiKTeX/2.9/pdftex/config/pdf
-tex.map}
-
-
-]) (definitions.tex
-
-LaTeX Warning: Reference `sec:stay' on page 2 undefined on input line 27.
-
-) (stay.tex) (featureExtraction.tex) (prediction.tex) (experiments.tex)
-(conclusion.tex) (main.bbl)
->>>>>>> origin/master
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -449,39 +444,22 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[2] (main.aux)
+[3 <C:/Users/Guolei/Dropbox/Research/Spatio-Temporal-Recommendation-Sytems/figu
+res/homebase.pdf>]
+(C:\Users\Guolei\Dropbox\Research\Spatio-Temporal-Recommendation-Sytems\main.au
+x)
 
 LaTeX Warning: There were undefined references.
 
-<<<<<<< HEAD
-]
-(C:\Users\Guolei\Dropbox\Research\Spatio-Temporal-Recommendation-Sytems\main.au
-x) ) 
-Here is how much of TeX's memory you used:
- 4758 strings out of 493921
- 74824 string characters out of 3144872
- 137696 words of memory out of 3000000
- 7981 multiletter control sequences out of 15000+200000
- 35813 words of font info for 71 fonts, out of 3000000 for 9000
- 841 hyphenation exceptions out of 8191
- 36i,8n,38p,1259b,246s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Prog
-ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program
- Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86
-)/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files (x86)/MiKTeX 2
-.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
-pe1/urw/times/utmri8a.pfb>
-Output written on main.pdf (2 pages, 68260 bytes).
-=======
  ) 
 Here is how much of TeX's memory you used:
- 4779 strings out of 493634
- 73894 string characters out of 3141308
- 143521 words of memory out of 3000000
- 8090 multiletter control sequences out of 15000+200000
- 38027 words of font info for 73 fonts, out of 3000000 for 9000
- 1025 hyphenation exceptions out of 8191
- 36i,8n,38p,1353b,246s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 4799 strings out of 493921
+ 75352 string characters out of 3144872
+ 139689 words of memory out of 3000000
+ 8009 multiletter control sequences out of 15000+200000
+ 42234 words of font info for 86 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 36i,8n,38p,1259b,343s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program 
 Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Fil
@@ -492,10 +470,9 @@ es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files
 /fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
 e1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/time
 s/utmri8a.pfb>
-Output written on main.pdf (2 pages, 120120 bytes).
->>>>>>> origin/master
+Output written on main.pdf (3 pages, 229432 bytes).
 PDF statistics:
- 46 PDF objects out of 1000 (max. 8388607)
+ 90 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
