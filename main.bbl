@@ -1,9 +1,21 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{golle2009anonymity}
+P.~Golle and K.~Partridge.
+\newblock On the anonymity of home/work location pairs.
+\newblock In {\em International Conference on Pervasive Computing}, pages
+  390--397. Springer, 2009.
 
 \bibitem{hw-osmugsm-08}
 M.~Haklay and P.~Weber.
 \newblock Openstreetmap: User-generated street maps.
 \newblock {\em IEEE Pervasive Computing}, October-December:12--18, 2008.
+
+\bibitem{kerdprasop2005weighted}
+K.~Kerdprasop, N.~Kerdprasop, and P.~Sattayatham.
+\newblock Weighted k-means for density-biased clustering.
+\newblock In {\em International Conference on Data Warehousing and Knowledge
+  Discovery}, pages 488--497. Springer, 2005.
 
 \bibitem{li2008mining}
 Q.~Li, Y.~Zheng, X.~Xie, Y.~Chen, W.~Liu, and W.-Y. Ma.
@@ -35,6 +47,13 @@ D.~Yang, D.~Zhang, L.~Chen, and B.~Qu.
   behavior in lbsns.
 \newblock {\em Journal of Network and Computer Applications}, 55:170--180,
   2015.
+
+\bibitem{zang2011anonymization}
+H.~Zang and J.~Bolot.
+\newblock Anonymization of location data does not work: A large-scale
+  measurement study.
+\newblock In {\em Proceedings of the 17th annual international conference on
+  Mobile computing and networking}, pages 145--156. ACM, 2011.
 
 \bibitem{zheng2010geolife}
 Y.~Zheng, X.~Xie, and W.-Y. Ma.

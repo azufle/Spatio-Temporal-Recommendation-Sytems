@@ -6,9 +6,9 @@ There are many spatio-temporal features that could potentially be related to a u
 
 \subsection{Extracting the frequency of visits of a user}
 
-Our assumption is, if a user repeatedly visits a place, e.g., always dine in the same restaurant, it strongly suggests that the user would rate this place highly. On the other hand, if a user visits a place only once, then never comes back, it may be because the user dislike the place. Therefore we choose the frequency of visits as a feature.
+Our assumption is, if a user repeatedly visits a PoI, e.g., always dine in the same restaurant, it strongly suggests that the user favours the PoI. On the other hand, if a user visits a PoI only once and never comes back, it suggests the user dislike the place. Therefore we choose the frequency of visits as a feature.
 
-In order to extra frequency information from user trajectories, for a location and a user who visited it, we count for how many time does the user visit the location in a given time period. Users are then assigned into several frequency groups (Table~\ref{frequencyGroups}) based on how often they visit the location.
+In order to extra frequency information from a user's trajectories, we count for how many time does the user visit a location in a given time period. Typically, each check-in to the location is counted as one visit. Users are then assigned into several frequency groups (Table~\ref{frequencyGroups}) based on how often they visit the location. Note that if a user has never visited a PoI, he cannot rate it. Thus we do not assign any group for such users.
 
 \begin{table}[htbp]
 \begin{center}
@@ -19,16 +19,15 @@ At least one visit per day \\ \hline
 At least one visit per week \\ \hline
 At least one visit per month \\ \hline
 Less than one visit per month \\ \hline
-Never visited \\ \hline
 \end{tabular}
 \end{center}
 \end{table}
 
-We note a user's behaviour may vary over time. For example, a user rates a shopping center highly. He may visit the shopping center very frequently during Thanksgiving, while visit the same place only once in several month during the rest of the year, because he does not have much to buy. As a result, the timing window used to count visits can have a significant impact on the user's group assignment. If we consider only visits happened in the Thanksgiving week, the user belongs to the ``At least one visit per week " group. However, if we look at the year-long visits, the same user may be grouped into ``Less than one visit per month" since his visits are averaged over twelve months. We propose a simple way to mitigate this problem.
+We note a user's behaviour may vary over time. For example, if a user likes a shopping center, he may visit the shopping center very frequently during Thanksgiving and similar holidays, while visit the same place only once in several month during the rest of the year. As a result, the timing window used to count visits can have significant impact on the user's group assignment. For the same user, if we consider only visits happened in the Thanksgiving week, the user belongs to the ``At least one visit per week " group. However, if we look at the year-long visits, he may be grouped into ``Less than one visit per month" since his visits are averaged over twelve months. We propose a simple way to mitigate this problem.
 
-First, we use timing windows with different sizes simultaneously to compute the frequency of visits of a user. Specifically, given a user's trajectory data for a period of $n$ days, for each day/week/month within these $n$ days, we count the number of visits that falls in the same day/week/month. We then use this count to compute the user's group of that specific day/week/month. Here we use day/week/month as nature timing windows, but in practice the size of timing window can be arbitrary. Second, when a user's visit frequency demonstrates inconsistency in different time period with the same timing window size, we use his maximal visiting frequency, e.g., if a user visits a location 3 times a week in week 1, but 0 times in week 2, the user is then categorized as ``At least one visit per week" in this case.
+First, we use timing windows with different sizes simultaneously to compute the frequency of visits of a user. Specifically, given a user's trajectory data for a period of $n$ days, for each day/week/month within these $n$ days, we count the number of visits that falls in the same day/week/month. We then use this count to compute the user's group of that specific day/week/month. Here we use day/week/month as nature timing windows, but in practice the size of timing window can be arbitrary. Second, when a user's visit frequency demonstrates inconsistency in different time period with the same timing window size, we use his maximal visiting frequency, e.g., if a user visits a location 3 times a week in week 1, but 0 times in week 2, the user is then categorized as ``At least one visit per week" in this case. Given that each user has a unique and consistent ID, for each PoI, we can then calculate how many users falls in each frequency group.
 
-Additionally, for each user, we calculate three numerical features that also describe the user's visiting pattern to a location: 1) \textbf{Average duration between two consecutive visits}, 2) \textbf{Minimal duration between two consecutive visits}, and 3) \textbf{Maximal duration between two consecutive visits}. These information are supplemental to the frequency groups. We are interested in finding out their impact on the rating prediction result.
+Additionally, for each PoI, we calculate three numerical features that also describe the users' visiting pattern to the PoI: 1) \textbf{Average duration between two consecutive visits of a user}, 2) \textbf{Minimal duration between two consecutive visits of a user}, and 3) \textbf{Maximal duration between two consecutive visits of a user}. These information are supplemental to the frequency groups. We are interested in finding out their impact on the rating prediction result.
 
 \subsection{Extracting the length of stays of a user}
 
@@ -37,29 +36,27 @@ Additionally, for each user, we calculate three numerical features that also des
 
 \subsection{Extracting the travel distance of a user from its home base}
 
-If a user is willing to travel a long distance from his home/office area to a restaurant, it is very likely that the restaurant is attractive to him. Unfortunately, users' home or work address are usually not included in the dataset due to privacy concerns. 
+If a user is willing to travel a long distance from his home/work area to a PoI, it is likely that the PoI is attractive to him. Unfortunately, measuring the travel distance from one's home/work can be challenging. This is because users' home or work address or coordinates are usually not explicitly marked in a spatial-temporal dataset due to privacy concerns.
 
-We use distance-based location clustering (e.g., \cite{} ) to estimate a user's home base, i.e., an area where he is likely to live/work. We assume, naturally, locations a user visits frequently formulates a large cluster in the area where he lives. If there exists a location that is isolated from any of these clusters, we deem such a location as ``far from home" and thus it requires extra effort for the user to travel there. Willing to make such effort indicates the user may like the place. And we measure this effort using the minimal distance between the location and estimated home base of the user. An example of home base and far locations is illustrated in Figure~\ref{example}.
+We use distance-based location clustering (e.g., weighted k-means~\cite{kerdprasop2005weighted}, where the weight of a location is the number of visits by the user) to estimate a user's home base, i.e., an area where he is likely to live/work. Locations a user visits frequently is likely to formulate a dense cluster in the area where he lives and works~\cite{golle2009anonymity, zang2011anonymization}. If there exists a location that is isolated from any of these clusters, we deem such a location as ``far from home". It requires extra effort for the user to travel this location. Willing to make such effort indicates the user may like the place. An example of home base and isolated locations is illustrated in Figure~\ref{example}.
 
 \begin{figure}[htb]
 \center
 %\vspace{-2mm}
 {\includegraphics[width=0.45 \textwidth]{homebase.pdf}}
 %\vspace{-12mm}
-\caption{Example of home base and ``isolated" locations} 
+\caption{Example of home base and isolated locations} 
 \label{example}
 %\vspace{-4mm}
 \end{figure}
 
-Using cluster weight to decide if home base or not.
+For each isolated location, we estimate the travelling effort for the user to reach the location. Using the distance between the isolated location and the user's home base may be biased. A user who likes to drive can easily travel to a mall several miles away from home, but for someone who does not have a car, travelling the same distance means significantly more effort. Instead, we use the relative travelling distance. For a location $l$, we compute $D_l = d_l / \overline{d_{home}}$ where $d_l$ is the minimal travel distance between $l$ and any home base location, and $\overline{d_{home}}$ the average travel distance between locations within the user's home base.
 
-\subsection{Extracting the total number of different visitors}
+\subsection{Extracting the type of PoI}
 
-We observe that in reality, a highly-rated location naturally attracts many different users.
+A user's spatial-temporal behaviour can be very different in different types of PoIs. Suppose a user gives high rate for both a coffee stand and a theatre. It is common for a user to visit the coffee stand every day or even multiple times a day, while such a visiting pattern is not likely to appear for his visiting to the theatre. Given the diversity of locations, we believe the type of different PoIs serves as an important feature in the rating prediction process.
 
-
-\subsection{Extracting the type of location}
-
+Fortunately, in some spatial-temporal datasets (e.g., \cite{yang2015nationtelescope}), a location category is given for each PoI check-in. Nevertheless, a dataset may provide only coordinate of visited locations with no additional information. One way to infer the type of PoI in this case is to match the coordinates to PoIs using geoinfo systems such as Google Map, which provides detailed category information of PoIs.
 
 \subsection{Discussion}
 1. Assumptions: when are valid and when is not
