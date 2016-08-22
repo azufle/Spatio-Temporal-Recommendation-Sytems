@@ -57,13 +57,13 @@ A user's spatial-temporal behaviour can be very different in different types of 
 
 Fortunately, in many spatial-temporal datasets (e.g., \cite{yang2014modeling}), a category is given for each PoI. Nevertheless, a dataset may provide only coordinate of visited locations with no additional information. One way to infer the type of PoI in this case is to match the coordinates to PoIs using geoinfo systems such as Google Map, which provides detailed category information of PoIs.
 
-
 \subsection{Discussion}
 
-Due to limited space, we briefly discuss some other features that could be explored for user rating prediction.
+Due to limited space, we briefly discuss some other useful features that could be explored for user rating prediction.
 
-\myparatight{Exploring relation between nearby PoIs}
+\myparatight{Regional difference} User's visiting pattern to some PoIs can be region-sensitive. Consider an example of two restaurants. Restaurant A locates near a busy train station while restaurant B is in suburb region. Even if the B provides better service than A, A may attract much more visitors comparing with B due to its better location. A possible way to mitigate the problem is to add a feature that describes region of a location (e.g., ``Downtown region", ``Less popular region", etc.) but it requires extra geo-demographic information which cloud be hard to collect. A simpler and efficient way is to explore the relation between nearby PoIs of the same type. The reason is intuitive. For example, given several restaurants close to each other, if all of them are visited by 100 users per day, except for one restaurants which has only 10 visitors per day, it is very likely that this restaurants has a bad rating.
 
+\myparatight{Scale of the PoI} It is worth mentioning that the scale of a PoI has an obvious impact on the total number of visits to it. A small convenient store, regardless of how users like it, is not likely to have even close number of visitors comparing with a large super market. However, to our knowledge, these is no convincing way that can accurately estimate scale of a PoI. We leave this for future exploration when the data is available.
 
-\myparatight{Exploring social connection between users}
+\myparatight{Social connection between users} The prevalence of LBSNs makes it easy to learn social connects between users. If several users who are socially connected check in at a PoI at the same time, it is likely that they have a group social event at the PoI. The fact that a group of friends choose to meet at a PoI suggests most of the users in the group like the place. Group-visits may demonstrate different pattern comparing with individual visits, and therefore can be used as a distinguished feature. 
 
