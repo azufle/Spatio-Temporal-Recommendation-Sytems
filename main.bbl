@@ -11,11 +11,29 @@ M.~Haklay and P.~Weber.
 \newblock Openstreetmap: User-generated street maps.
 \newblock {\em IEEE Pervasive Computing}, October-December:12--18, 2008.
 
+\bibitem{hinton2012deep}
+G.~Hinton, L.~Deng, D.~Yu, G.~E. Dahl, A.-r. Mohamed, N.~Jaitly, A.~Senior,
+  V.~Vanhoucke, P.~Nguyen, T.~N. Sainath, et~al.
+\newblock Deep neural networks for acoustic modeling in speech recognition: The
+  shared views of four research groups.
+\newblock {\em IEEE Signal Processing Magazine}, 29(6):82--97, 2012.
+
 \bibitem{kerdprasop2005weighted}
 K.~Kerdprasop, N.~Kerdprasop, and P.~Sattayatham.
 \newblock Weighted k-means for density-biased clustering.
 \newblock In {\em International Conference on Data Warehousing and Knowledge
   Discovery}, pages 488--497. Springer, 2005.
+
+\bibitem{koren2009matrix}
+Y.~Koren, R.~Bell, C.~Volinsky, et~al.
+\newblock Matrix factorization techniques for recommender systems.
+\newblock {\em Computer}, 42(8):30--37, 2009.
+
+\bibitem{krizhevsky2012imagenet}
+A.~Krizhevsky, I.~Sutskever, and G.~E. Hinton.
+\newblock Imagenet classification with deep convolutional neural networks.
+\newblock In {\em Advances in neural information processing systems}, pages
+  1097--1105, 2012.
 
 \bibitem{li2008mining}
 Q.~Li, Y.~Zheng, X.~Xie, Y.~Chen, W.~Liu, and W.-Y. Ma.
@@ -34,6 +52,19 @@ J.~Manyika, M.~Chui, B.~Brown, J.~Bughin, R.~Dobbs, C.~Roxburgh, and A.~H.
 \bibitem{OSM}
 Open street map.
 \newblock http://www.openstreetmap.org.
+
+\bibitem{ruiz2013innovative}
+J.~C. Ruiz-Rodr{\'\i}guez, A.~Ruiz-Sanmart{\'\i}n, V.~Ribas, J.~Caballero,
+  A.~Garc{\'\i}a-Roche, J.~Riera, X.~Nuvials, M.~de~Nadal, O.~de~Sola-Morales,
+  J.~Serra, et~al.
+\newblock Innovative continuous non-invasive cuffless blood pressure monitoring
+  based on photoplethysmography technology.
+\newblock {\em Intensive care medicine}, 39(9):1618--1625, 2013.
+
+\bibitem{schmidhuber2015deep}
+J.~Schmidhuber.
+\newblock Deep learning in neural networks: An overview.
+\newblock {\em Neural Networks}, 61:85--117, 2015.
 
 \bibitem{xiao2010finding}
 X.~Xiao, Y.~Zheng, Q.~Luo, and X.~Xie.
