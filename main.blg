@@ -10,6 +10,11 @@ I was expecting a `,' or a `}'---line 403 of file sigproc.bib
  : @inproceedings{DBLP:conf/icdm/ZhouCY10,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
+Repeated entry---line 872 of file sigproc.bib
+ : @article{RecSysSurvey13
+ :                        ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "davidson2010youtube"
 Warning--I didn't find a database entry for "?"
 Warning--empty journal in manyika2011big
-(There were 2 error messages)
+(There were 3 error messages)
