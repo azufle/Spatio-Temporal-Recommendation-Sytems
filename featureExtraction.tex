@@ -13,19 +13,19 @@ In order to extra frequency information from a user's trajectories, we count for
 \begin{table}[htbp]
 \begin{center}
 \caption{Groups based on how often user visits a location \label{frequencyGroups}}
-\begin{tabular}{|l|} \hline
-\textbf{Frequency groups} \\ \hline
-At least one visit per day \\ \hline
-At least one visit per week \\ \hline
-At least one visit per month \\ \hline
-Less than one visit per month \\ \hline
+\begin{tabular}{|l|l|} \hline
+ID & \textbf{Frequency groups} \\ \hline
+1 & At least one visit per day \\ \hline
+2 & At least one visit per week \\ \hline
+3 & At least one visit per month \\ \hline
+4 & Less than one visit per month \\ \hline
 \end{tabular}
 \end{center}
 \end{table}
 
 We note a user's behaviour may vary over time. For example, if a user likes a shopping center, he may visit the shopping center very frequently during Thanksgiving and similar holidays, while visit the same place only once in several month during the rest of the year. As a result, the timing window used to count visits can have significant impact on the user's group assignment. For the same user, if we consider only visits happened in the Thanksgiving week, the user belongs to the ``At least one visit per week " group. However, if we look at the year-long visits, he may be grouped into ``Less than one visit per month" since his visits are averaged over twelve months. We propose a simple way to mitigate this problem.
 
-First, we use timing windows with different sizes simultaneously to compute the frequency of visits of a user. Specifically, given a user's trajectory data for a period of $n$ days, for each day/week/month within these $n$ days, we count the number of visits that falls in the same day/week/month. We then use this count to compute the user's group of that specific day/week/month. Here we use day/week/month as nature timing windows, but in practice the size of timing window can be arbitrary. Second, when a user's visit frequency demonstrates inconsistency in different time period with the same timing window size, we use his maximal visiting frequency, e.g., if a user visits a location 3 times a week in week 1, but 0 times in week 2, the user is then categorized as ``At least one visit per week" in this case. Given that each user has a unique and consistent ID, for each PoI, we can then calculate how many users falls in each frequency group.
+First, we use timing windows with different sizes simultaneously to compute the frequency of visits of a user. Specifically, given a user's trajectory data for a period of $n$ days, for each week/2 weeks/month within these $n$ days, we count the number of visits that falls in the same week/2 weeks/month. We then use this count to compute the user's group of that specific period. Here we use week and month as nature timing windows, but in practice the size of timing window can be arbitrary. Second, when a user's visit frequency demonstrates inconsistency in different time period with the same timing window size, we use his maximal visiting frequency, e.g., if a user visits a location 3 times a week in week 1, but 0 times in week 2, the user is then categorized as ``At least one visit per week" in this case. Given that each user has a unique and consistent ID, for each PoI, we can then calculate how many users falls in each frequency group.
 
 Additionally, for each PoI, we calculate three numerical features that also describe the users' visiting pattern to the PoI: 1) \textbf{Average duration between two consecutive visits of a user}, 2) \textbf{Minimal duration between two consecutive visits of a user}, and 3) \textbf{Maximal duration between two consecutive visits of a user}. These information are supplemental to the frequency groups. We are interested in finding out their impact on the rating prediction result.
 
