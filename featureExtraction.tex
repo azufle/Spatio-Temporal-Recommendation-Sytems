@@ -57,11 +57,11 @@ For each isolated location, we estimate the travelling effort for the user to re
 
 A user's spatial-temporal behaviour can be very different in different types of PoIs. Suppose a user gives high rate for both a coffee stand and a theatre. It is common for a user to visit the coffee stand every day or even multiple times a day, while such a visiting pattern is not likely to appear for his visiting to the theatre. Given the diversity of locations, we believe the type of different PoIs serves as an important feature in the rating prediction process.
 
-Fortunately, in many spatial-temporal datasets (e.g., \cite{yang2014modeling}), a category is given for each PoI. Nevertheless, a dataset may provide only coordinate of visited locations with no additional information. One way to infer the type of PoI in this case is to match the coordinates to PoIs using geoinfo systems such as Google Map, which provides detailed category information of PoIs.
+Fortunately, in many spatial-temporal datasets (e.g., \cite{yang2014modeling}), a category is given for each PoI. Nevertheless, a dataset may provide only coordinate of visited locations with no additional information. One way to infer the type of PoI in this case is to match the coordinates to PoIs using geo-info systems such as GoogleMap, which provides detailed category information of PoIs.
 
 \subsection{Discussion}
 
-Due to limited space, we briefly discuss some other useful features that could be explored for user rating prediction.
+Due to limited space, we briefly discuss some other useful features that we conjecture are related to users' rating of PoIs.
 
 \myparatight{Regional difference} User's visiting pattern to some PoIs can be region-sensitive. Consider an example of two restaurants. Restaurant A locates near a busy train station while restaurant B is in suburb region. Even if the B provides better service than A, A may attract much more visitors comparing with B due to its better location. A possible way to mitigate the problem is to add a feature that describes region of a location (e.g., ``Downtown region", ``Less popular region", etc.) but it requires extra geo-demographic information which cloud be hard to collect. A simpler and efficient way is to explore the relation between nearby PoIs of the same type. The reason is intuitive. For example, given several restaurants close to each other, if all of them are visited by 100 users per day, except for one restaurants which has only 10 visitors per day, it is very likely that this restaurants has a bad rating.
 

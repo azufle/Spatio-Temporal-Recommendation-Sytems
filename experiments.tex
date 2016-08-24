@@ -35,7 +35,7 @@ Number of latent features (for MF) & 8 \\ \hline
 
 \subsection{Data Cleaning}
 
-A few data cleaning steps are needed to prepare the dataset. First, we remove the \textit{inactive} users from the dataset. We define inactive users as those who have less than 1 check-ins per week in the 10 month period, and have less than 10 liked locations. The lack of data makes it hard to extra features for these users. Second, we remove the PoIs which were not rated by any of these users, since the ground truth is not available for such PoI. After the cleaning process, we extract the check-in information of approximately 5000 most active users and 1500 PoIs they have visited from the dataset.
+A few data cleaning steps are needed to prepare the dataset. First, we remove the \textit{inactive} users from the dataset. We define inactive users as those who have less than 1 check-ins per week in the 10 month period, and have less than 10 liked locations. The lack of data makes it hard to extra features for these users. Second, we remove the PoIs which were not rated by any of these users, since the ground truth is not available for such PoI. After the cleaning process, we extract the check-in information of approximately 5000 most active users and 1500 PoIs they have visited from the dataset. We show this small set of users/PoI is sufficient to demonstrate the effectiveness of the proposed rating prediction method.
 
 In order for MF to work, we also generate a user-PoI rating matrix based on the users and PoIs appeared in the FourSquare dataset. The user ratings are directly crawled from FourSquare.
 
