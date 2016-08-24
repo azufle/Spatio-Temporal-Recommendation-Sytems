@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.31)  23 AUG 2016 18:35
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.31)  23 AUG 2016 20:12
 entering extended mode
 **main.tex
 
@@ -393,12 +393,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 work.tex [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
-]
-
-LaTeX Warning: Citation `davidson2010youtube' on page 2 undefined on input line
- 8.
-
-)
+])
 (C:\Users\Guolei\Dropbox\Research\Spatio-Temporal-Recommendation-Sytems\definit
 ions.tex
 
@@ -498,14 +493,7 @@ Overfull \hbox (10.59991pt too wide) in paragraph at lines 77--85
 (C:\Users\Guolei\Dropbox\Research\Spatio-Temporal-Recommendation-Sytems\conclus
 ion.tex)
 (C:\Users\Guolei\Dropbox\Research\Spatio-Temporal-Recommendation-Sytems\main.bb
-l [6 <C:/Users/Guolei/Dropbox/Research/Spatio-Temporal-Recommendation-Sytems/fi
-gures/E4-a.pdf> <C:/Users/Guolei/Dropbox/Research/Spatio-Temporal-Recommendatio
-n-Sytems/figures/E4-b.pdf
-
-pdfTeX warning: pdflatex (file C:/Users/Guolei/Dropbox/Research/Spatio-Temporal
--Recommendation-Sytems/figures/E4-b.pdf): PDF inclusion: multiple pdfs with pag
-e group included in a single page
->])
+l)
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -517,9 +505,14 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[7
+[6 <C:/Users/Guolei/Dropbox/Research/Spatio-Temporal-Recommendation-Sytems/figu
+res/E4-a.pdf> <C:/Users/Guolei/Dropbox/Research/Spatio-Temporal-Recommendation-
+Sytems/figures/E4-b.pdf
 
-]
+pdfTeX warning: pdflatex (file C:/Users/Guolei/Dropbox/Research/Spatio-Temporal
+-Recommendation-Sytems/figures/E4-b.pdf): PDF inclusion: multiple pdfs with pag
+e group included in a single page
+>]
 (C:\Users\Guolei\Dropbox\Research\Spatio-Temporal-Recommendation-Sytems\main.au
 x)
 
@@ -527,13 +520,13 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 4773 strings out of 493921
- 75311 string characters out of 3144872
- 145472 words of memory out of 3000000
- 7981 multiletter control sequences out of 15000+200000
+ 4768 strings out of 493921
+ 75224 string characters out of 3144872
+ 143472 words of memory out of 3000000
+ 7976 multiletter control sequences out of 15000+200000
  42234 words of font info for 86 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 36i,9n,38p,1259b,371s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,9n,38p,1265b,371s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program 
 Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Fil
@@ -544,9 +537,9 @@ es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files
 /fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
 e1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/time
 s/utmri8a.pfb>
-Output written on main.pdf (7 pages, 400165 bytes).
+Output written on main.pdf (6 pages, 398479 bytes).
 PDF statistics:
- 335 PDF objects out of 1000 (max. 8388607)
+ 330 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
