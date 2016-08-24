@@ -1,14 +1,9 @@
 \section{Problem Definition} 
 \label{sec:probdef}
-<<<<<<< HEAD
 In this section we formally define a user-trajectory, and define our notion of a user-site-stay, which we are going 
 to use to extract features to estimate the affinity between a user and a site later in Section \ref{sec:method}. 
 We first start by defining a trajectory.
-=======
-In this section we formally define a user-trajectory, and define our notion of a user-site-stay, which we are going
-to use to extract features to estimate the affinity between a user and a site later in Section \ref{sec:method}.
-We first start by defining a trajectory as follows.
->>>>>>> origin/master
+
 \begin{definition}[Spatio-Temporal Database]
 Let $\mathcal{U}$ denote a set of unique user identifiers, let $\mathcal{G}=[-90,90]\times [-180,180]$ denote the space of longitude/latitude geo-coordinates, and the $\mathcal{T}$ denote the time domain.
 A \emph{spatio-temporal database} $\DB\subseteq \mathcal{U}\times \mathcal{G}\times \mathcal{T}$ is a collection of triples $(id\in\mathcal{U},(lat,long)\in\mathcal{G},t\in\mathcal{T})$. Each triple $(u,s,t)\in\DB$ is called an observation.

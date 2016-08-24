@@ -8,4 +8,4 @@ We do not intend to explore existing machine learning techniques in an encyclopa
 
 A DNN is a artificial neural network with more than one hidden layer. Each hidden layer consists of certain number of hidden units or neurons. A hidden unit $i$ uses a output function $f(x_i) = y_i$ to map its input $x_i$, received from the previous layer, to an output $y_i$, which is then sent to the next layer. Typical output functions include linear, logistic, sigmoid, softmax, etc. In our experiments, we construct a DNN with a simple fully-connected 4-layer architecture. The DNN is discriminatingly trained by backpropagation. A cost function is used to measure the discrepancy between the target output and predicted value in backpropagating. For our problem, we use Mean Square Error (MSE) as cost function. 
 
-Since the data we are dealing with has a relatively small number of features and size, we will not concern ourselves with the problem of handling overfitting and optimizing of training time.
+Since we are dealing with a relatively small number of features, here we will not concern ourselves with the problem of handling overfitting and optimizing of training time.
