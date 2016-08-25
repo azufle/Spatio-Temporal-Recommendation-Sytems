@@ -2,13 +2,13 @@
 \section{Spatio-Temporal User-Site Feature Extraction}
 \label{sec:method}
 
-Our goal is to extract a set of spatial-temporal features from a user's trajectory, which can be used to predict the rating of a PoI from the users who have visited the PoI. There are many features that could potentially be related to a user's feeling of a PoI. We discuss in the section a set of common features we select for the rating prediction problem, and the methods we use to extra such features. It is easy to understand why these features are selected since they are intuitive.
+Our goal is to extract a set of spatial-temporal features from a user's trajectory, which can be directly used to predict the rating of a PoI. There are many features that could potentially be related to a user's feeling of a PoI. We discuss in this section a set of common features we select for the rating prediction problem, and the methods we use to extra such features. It is easy to understand why these features are selected since they are intuitive.
 
 \subsection{Extracting the frequency of visits of a user}
 
 Our assumption is, if a user repeatedly visits a PoI, e.g., always dine in the same restaurant, it strongly suggests that the user favours the PoI. On the other hand, if a user visits a PoI only once and never comes back, it suggests the user dislike the place. Therefore we choose the frequency of visits as a feature. Here, each stay-point is considered a visit.
 
-In order to extra frequency information from a user's trajectories, we count for how many time does the user visit a location in a given time period. Typically, each check-in to the location is counted as one visit. Users are then assigned into several frequency groups (Table~\ref{frequencyGroups}) based on how often they visit the location. Note that if a user has never visited a PoI, he cannot rate it. Thus we do not assign any group for such users.
+In order to extra frequency information from a user's trajectories, we count for how many time the user visits a PoI in a given time period. Each check-in to the PoI is counted as one visit. Users are then assigned into several frequency groups (Table~\ref{frequencyGroups}) based on how often they visit the PoI. Note that if a user has never visited a PoI, he cannot rate it. Thus we do not assign any group for such users.
 
 \begin{table}[htbp]
 \begin{center}
